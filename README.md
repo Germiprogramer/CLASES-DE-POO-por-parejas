@@ -111,3 +111,7 @@ class Logger:
             f.write(' log(s) --')
             f.close
 ```            
+
+El UML de este ejercicio es el siguiente:
+
+![ejr4](https://user-images.githubusercontent.com/91721237/159342206-e95801c7-4899-42c5-ac99-c43c5de315d0.jpg)
