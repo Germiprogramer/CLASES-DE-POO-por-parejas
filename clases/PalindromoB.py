@@ -1,6 +1,6 @@
 import unicodedata
 
-class Palindromo:
+class Palindromo_b:
     def __init__(self, palabra):
         trans_tab = dict.fromkeys(map(ord, u'\u0301\u0308'), None)
         palabra = unicodedata.normalize('NFKC', unicodedata.normalize('NFKD', palabra).translate(trans_tab))
@@ -28,7 +28,3 @@ class Palindromo:
         else:
             print("False")
         print(self.palabra.upper())
-    
-
-p = Palindromo("radar") 
-p.test()

@@ -1,6 +1,6 @@
 import unicodedata
 
-class Palindromo:
+class Palindromo_a:
     def palindromo(self, N, M):
         if N < M:
             if self.palabra[N] == self.palabra[M]:
@@ -25,7 +25,3 @@ class Palindromo:
             print("True")
         else:
             print("False")
-
-
-ejercicio = Palindromo()
-ejercicio.esPalindromo('Arde ya la yedra')
