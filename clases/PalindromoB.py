@@ -23,7 +23,7 @@ class Palindromo:
     
     def test(self):
         self.palindromo(0, len(self.palabra)-1)
-        if self.test() == True:
+        if self.test == True:
             print("True")
         else:
             print("False")
