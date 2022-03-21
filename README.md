@@ -23,7 +23,7 @@ class Palindromo_a:
             if self.palabra[N] == self.palabra[M]:
                 self.esPalindromo = True
             else:
-                self.esPalindromo = False
+               self.esPalindromo = False
     
     def esPalindromo(self, palabra):
         trans_tab = dict.fromkeys(map(ord, u'\u0301\u0308'), None)
@@ -36,6 +36,8 @@ class Palindromo_a:
         else:
             print("False")
 ```
+<img width="185" alt="2022-03-21 (8)" src="https://user-images.githubusercontent.com/91720991/159346094-56de5db8-d974-4f77-b8c1-2254e0430978.png">
+
 
 
 # EJERCICIO 2
@@ -73,6 +75,8 @@ class Palindromo_b:
             print("False")
         print(self.palabra.upper())
 ```        
+<img width="196" alt="2022-03-21 (7)" src="https://user-images.githubusercontent.com/91720991/159346015-f699de91-35b0-4e44-a6f4-c58767012818.png">
+
 
 # EJERCICIO 3
 ## c. Puzzle
