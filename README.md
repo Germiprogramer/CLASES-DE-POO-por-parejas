@@ -83,7 +83,7 @@ class Palindromo_b:
 
 * print(y(a)) = esta devolviendo el valor a, que es un elemento de la clase A
 
-* (aa is a()) = retorna falso, porque son dos clases de A pero podrían pedir distintos atributos
+* print(aa is a()) = retorna falso, porque son dos clases de A pero podrían pedir distintos atributos
 
 * print(z(())) = es un elemento de una clase, por lo que su longitud f sera 0
 
